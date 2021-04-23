@@ -7,7 +7,7 @@
 		<!-- кодировка страницы -->
 		<meta charset="UTF-8">
 		<!-- настройка адаптивности и отображения на моб. уст-вах -->
-		<meta name="viewport" content="width=device-width, iniial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 		<!-- отключение формирования ссылки у номера телефона на ios -->
 		<meta name="format-detection" content="telephone=no">
 		<!-- SEO-краткое описание до 140 символов -->
@@ -58,39 +58,33 @@
 		<div class="wrapper">
 			<main class="page">
 
-			<header class="header">
-	<div class="container-h">
+<header class="header">
+	<div class="container">
 		<div class="header__body">
 			<div class="header__logo">
 				<img src="img/png/logo.png" alt="">
 			</div>
 			<div class="header__menu">
 				<div class="header__table">
-				<span>с 9:00 до 21:00</span>
-				<span>без выходных</span>
-			</div>
-			<div class="header__call">
-				<div class="header__num">
-					<a href="#">+7 (818) 247-47-25</a>
-					<a href="#">+7 (818) 247-47-25</a>
+					<span class="header__time">с 9:00 до 21:00</span>
+					<span class="header__noweekend">без выходных</span>
 				</div>
-				
-				<form action="#" class="header__form">
-					<button class="header__button">
-						заказать звонок
-					</button>
-				</form>
+				<div class="header__calls">
+					<div class="header__numbers">
+						<span class="header__num">+7 (818) 247-47-25</span>
+						<span class="header__num">+7 (818) 247-47-25</span>
+					</div>
+					<form action="#" class="header__form">
+						<button class="header__button">заказать звонок</button>
+					</form>
+				</div>
 			</div>
-			</div>
-			<div class="header__burger">
-				<span></span>
-				<span></span>
+			<div class="header__icon">
 				<span></span>
 			</div>
 		</div>
 	</div>
-</header>
-			<div class="main-screan">
+</header>			<div class="main-screan">
 				<div class="main-screan__bg ibg">
 					<img src="img/background/layer_1.jpg" alt="">
 				</div>
@@ -176,37 +170,41 @@
 							Любые запчасти для всех моделей Белаз <br> всегда в наличии!
 						</p>
 						<div class="spares__row">
-							<div class="spares__column">
-								<div class="spares__image image_one">
-									<img src="img/png/engine.png" alt="">
+							<div class="spares__row-2">
+								<div class="spares__column">
+									<div class="spares__image image_one">
+										<img src="img/png/engine.png" alt="">
+									</div>
+									<p class="spares__text text">
+										Любые типы деталей <br> от шайбы до двигателя!
+									</p>
 								</div>
-								<p class="spares__text text">
-									Любые типы деталей <br> от шайбы до двигателя!
-								</p>
+								<div class="spares__column">
+									<div class="spares__image image_two">
+										<img src="img/png/truck.png" alt="">
+									</div>
+									<p class="spares__text text">
+										Все модификации Белаз <br> от 45т до 450 т
+									</p>
+								</div>
 							</div>
-							<div class="spares__column">
-								<div class="spares__image image_two">
-									<img src="img/png/truck.png" alt="">
+							<div class="spares__row-3">
+								<div class="spares__column">
+									<div class="spares__image">
+										<img src="img/png/calendar.png" alt="">
+									</div>
+									<p class="spares__text text">
+										Отгружаем в день заказа!
+									</p>
 								</div>
-								<p class="spares__text text">
-									Все модификации Белаз <br> от 45т до 450 т
-								</p>
-							</div>
-							<div class="spares__column">
-								<div class="spares__image">
-									<img src="img/png/calendar.png" alt="">
+								<div class="spares__column">
+									<div class="spares__image">
+										<img src="img/png/forma.png" alt="">
+									</div>
+									<p class="spares__text text">
+										Доставим в любое место!
+									</p>
 								</div>
-								<p class="spares__text text">
-									Отгружаем в день заказа!
-								</p>
-							</div>
-							<div class="spares__column">
-								<div class="spares__image">
-									<img src="img/png/forma.png" alt="">
-								</div>
-								<p class="spares__text text">
-									Доставим в любое место!
-								</p>
 							</div>
 						</div>
 					</div>
@@ -284,37 +282,41 @@
 					<div class="bonus__body">
 						<h2 class="bonus__title title">У нас разработаны бонусные системы <br> и скидки для наших клиентов</h2>
 						<div class="bonus__row">
-							<div class="bonus__column">
-								<div class="bonus__image">
-									<img src="img/png/10.png" alt="">
+							<div class="bonus__row-2">
+								<div class="bonus__column">
+									<div class="bonus__image">
+										<img src="img/png/10.png" alt="">
+									</div>
+									<p class="bonus__text text">
+										Дополнительная скидка 10% <br> на вторую запчасть <br> и любые поледующие
+									</p>
 								</div>
-								<p class="bonus__text text">
-									Дополнительная скидка 10% <br> на вторую запчасть <br> и любые поледующие
-								</p>
+								<div class="bonus__column">
+									<div class="bonus__image">
+										<img src="img/png/20.png" alt="">
+									</div>
+									<p class="bonus__text text">
+										Скидка 20% при заключении <br> договора на годовое <br> сервисное обслуживание
+									</p>
+								</div>
 							</div>
-							<div class="bonus__column">
-								<div class="bonus__image">
-									<img src="img/png/20.png" alt="">
+							<div class="bonus__row-3">
+								<div class="bonus__column">
+									<div class="bonus__image">
+										<img src="img/png/delivery.png" alt="">
+									</div>
+									<p class="bonus__text text">
+										Бесплатная доставка <br> по всей России <br> для всех клиентов
+									</p>
 								</div>
-								<p class="bonus__text text">
-									Скидка 20% при заключении <br> договора на годовое <br> сервисное обслуживание
-								</p>
-							</div>
-							<div class="bonus__column">
-								<div class="bonus__image">
-									<img src="img/png/delivery.png" alt="">
+								<div class="bonus__column">
+									<div class="bonus__image">
+										<img src="img/png/telemarketer.png" alt="">
+									</div>
+									<p class="bonus__text text">
+										Бесплатная круглосуточная <br> техническая поддержка
+									</p>
 								</div>
-								<p class="bonus__text text">
-									Бесплатная доставка <br> по всей России <br> для всех клиентов
-								</p>
-							</div>
-							<div class="bonus__column">
-								<div class="bonus__image">
-									<img src="img/png/telemarketer.png" alt="">
-								</div>
-								<p class="bonus__text text">
-									Бесплатная круглосуточная <br> техническая поддержка
-								</p>
 							</div>
 						</div>
 					</div>
@@ -546,34 +548,34 @@
 				max-width="1920" width="100%" height="375" style="border:0;" allowfullscreen="" loading="lazy">
 				</iframe>
 			</div>
-			<footer class="footer">
+<footer class="footer">
 	<div class="footer__body container">
 		<div class="footer__logo">
 			<img src="img/png/logo.png" alt="">
 		</div>
-		<div class="footer__copiright">
-			<span>© 2016, CДЕЛАНО С </span>
-			<img src="img/svg/love.png" alt="">
-			<span>КОМАНДОЙ</span>
-			<img src="img/png/logomark.png" alt="">
-		</div>
-		<div class="footer__call">
-			<span>Есть вопросы? Звоните!</span>
-			<h4 class="footer__number">
-				+7 (818) 247-47-25
-			</h4>
+		<div class="footer__row">
+			<div class="footer__copiright">
+				<span>© 2016, CДЕЛАНО С </span>
+				<img src="img/svg/love.png" alt="">
+				<span>КОМАНДОЙ</span>
+				<img src="img/png/logomark.png" alt="">
+			</div>
+			<div class="footer__call">
+				<span>Есть вопросы? Звоните!</span>
+				<h4 class="footer__number">
+					+7 (818) 247-47-25
+				</h4>
+			</div>
 		</div>
 	</div>
-</footer>
-			</main>
+</footer>			</main>
 		</div>
-					
+			
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
 <script src="js/slick.min.js"></script>
 		
 <script src="js/script.js"></script>
-
 	</body>
 </html>
