@@ -1,0 +1,2 @@
+function ibg(){$.each($(".ibg"),(function(e,n){$(this).find("img").length>0&&$(this).css("background-image",'url("'+$(this).find("img").attr("src")+'")')}))}ibg();const iconMenu=document.querySelector(".header__icon"),menuBody=document.querySelector(".header__menu");iconMenu&&iconMenu.addEventListener("click",(function(e){document.body.classList.toggle("_lock"),iconMenu.classList.toggle("_active"),menuBody.classList.toggle("_active")}));
+//# sourceMappingURL=script.js.map
