@@ -316,6 +316,11 @@ body._lock {
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
+  transition: 0.3s;
+}
+
+.header__button:hover {
+  background-color: #F7B516;
 }
 
 .header__menu {
@@ -805,6 +810,11 @@ body._lock {
   width: 370px;
   padding: 25px 0px;
   background-color: #1866af;
+  transition: 0.3s;
+}
+
+.price__btn:hover {
+  background-color: #F7B516;
 }
 
 .price__btn span {
@@ -1130,6 +1140,11 @@ body._lock {
   width: 370px;
   padding: 20px 0px;
   background-color: #f7b516;
+  transition: 0.3s;
+}
+
+.search__button:hover {
+  background-color: #1669B3;
 }
 
 .search__button span {
@@ -1442,6 +1457,11 @@ body._lock {
 
 .ask__reload {
   margin-right: 25px;
+  transition: 0.3s;
+}
+
+.ask__reload img:hover {
+  transform: rotate (360deg);
 }
 
 .ask__more {
@@ -1851,6 +1871,11 @@ body._lock {
   max-width: 370px;
   height: 70px;
   background-color: #f7b516;
+  transition: 0.3s;
+}
+
+.consultation__btn:hover {
+  background-color: #1669B3;
 }
 
 @media (max-width: 767.98px) {
